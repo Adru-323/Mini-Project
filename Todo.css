@@ -1,0 +1,67 @@
+.todo{
+    background-color: aqua;
+    /* height: 100px;
+    width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    transition: all 0.5s linear 0.2s;
+    margin: auto;
+    border: solid #ccc 1px;
+
+}
+h1:hover{
+    color: white;
+}
+
+.todo:hover{
+   transform: rotate(360);
+   background-color: plum;
+}
+input{
+    margin: 10px 0 0 260px;
+}
+#btn{
+    background-color: rgb(0, 64, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+#btn:hover{
+    opacity:0.7;
+    background-color: rgb(27, 25, 25);
+}
+ul{
+    margin-left: 250px;
+}
+.delete{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    margin-left: 2px;
+    background-color: black;
+}
+
+.delete:hover{
+    opacity: 0.5;
+}
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    width: 50%; /* Adjust width as needed */
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /* Pushes text to left and button to right */
+    align-items: center;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width: 100%; /* Ensures consistency */
+    max-width: 400px; /* Adjust as needed */
+}
